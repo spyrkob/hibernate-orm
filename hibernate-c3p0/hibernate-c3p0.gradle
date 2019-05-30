@@ -17,6 +17,10 @@ dependencies {
     // EL libraries are provided scope in Validator
     testRuntime( libraries.expression_language_api )
     testRuntime( libraries.expression_language_impl )
+
+    testRuntime( 'javax.xml.bind:jaxb-api:2.2.11' )
+    testRuntime( 'com.sun.xml.bind:jaxb-impl:2.2.11' )
+    testRuntime( 'javax.activation:activation:1.1.1' )
 }
 
 mavenPom {

@@ -56,6 +56,10 @@ dependencies {
 
     testRuntime( 'jaxen:jaxen:1.1' )
     testRuntime( libraries.javassist )
+
+    xjc( 'javax.xml.bind:jaxb-api:2.2.11' )
+    xjc( 'com.sun.xml.bind:jaxb-impl:2.2.11' )
+    xjc( 'javax.activation:activation:1.1.1' )
 }
 
 mavenPom {
